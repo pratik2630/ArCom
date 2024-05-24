@@ -1,0 +1,95 @@
+.about-us-section {
+  overflow: hidden;
+  font-family: 'Arial', sans-serif; /* Customize overall font */
+}
+
+.shared-banner {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif; /* Different font for banner */
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.about-us-image {
+  width: 300px; /* Smaller image */
+  height: 300px; /* Smaller image */
+  border-radius: 50%; /* Round image */
+  object-fit: cover;
+}
+
+.text-content {
+  flex: 1;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #0b2744;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif; /* Different font for title */
+}
+
+.description, .intro, .history {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.intro {
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #b13131;
+}
+
+.history {
+  font-size: 1.9rem;
+  color: #444;
+}
+
+.action-button {
+  font-size: 1.5rem;
+  background-color: #007bff;
+  color: white;
+  padding: 50px 50px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  font-size: 3.0rem;
+  background-color: #0056b3;
+}
+
+.features-section {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+.shared-text {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif; /* Different font for shared text */
+}

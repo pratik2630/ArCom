@@ -1,0 +1,21 @@
+.products {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+  
+}
+
+.products h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+
